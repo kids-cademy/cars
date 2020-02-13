@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    class="com.kidscademy.cars.QuizActivity$QuizCompleteDialog"
+    android:id="@+id/quiz_complete"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    android:background="?colorPrimaryLight" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Quiz complete"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/quiz_complete_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:text="Brand Level 1"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22dp" />
+    
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/shape_circle"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/quiz_complete_credits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="+50"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?colorPrimaryDark"
+        android:textSize="60dp" />
+
+    <include layout="@layout/compo_close_button" />
+
+</view>

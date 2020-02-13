@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/quiz_selector"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryLight"
+    android:padding="10dp"
+    tools:context="com.kidscademy.cars.QuizSelectorActivity" >
+
+    <RelativeLayout
+        android:id="@+id/quiz_selector_brand"
+        style="@style/main.section" >
+
+        <ImageView
+            android:id="@+id/quiz_selector_brand_icon"
+            style="@style/main.icon" />
+
+        <TextView
+            android:id="@+id/quiz_selector_brand_title"
+            style="@style/main.text"
+            android:layout_toRightOf="@id/quiz_selector_brand_icon"
+            android:text="@string/quiz_selector_brand" />
+
+        <TextView
+            android:id="@+id/quiz_selector_brand_factor"
+            style="@style/main.text"
+            android:layout_alignParentRight="true"
+            android:text="1X"
+            android:textColor="@color/yellow_500" />
+
+        <View
+            android:id="@+id/quiz_selector_brand_hr"
+            style="@style/main.hr"
+            android:layout_below="@id/quiz_selector_brand_title"
+            android:layout_toRightOf="@id/quiz_selector_brand_icon" />
+
+        <TextView
+            android:id="@+id/quiz_selector_brand_level"
+            style="@style/main.text"
+            android:layout_below="@id/quiz_selector_brand_hr"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/quiz_selector_brand_icon"
+            android:text="LEVEL 1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/quiz_selector_country"
+        style="@style/main.section"
+        android:layout_below="@id/quiz_selector_brand"
+        android:paddingTop="20dp" >
+
+        <ImageView
+            android:id="@+id/quiz_selector_country_icon"
+            style="@style/main.icon" />
+
+        <TextView
+            android:id="@+id/quiz_selector_country_title"
+            style="@style/main.text"
+            android:layout_toRightOf="@id/quiz_selector_country_icon"
+            android:text="@string/quiz_selector_country" />
+
+        <TextView
+            android:id="@+id/quiz_selector_country_factor"
+            style="@style/main.text"
+            android:layout_alignParentRight="true"
+            android:text="2X"
+            android:textColor="@color/yellow_500" />
+
+        <View
+            android:id="@+id/quiz_selector_country_hr"
+            style="@style/main.hr"
+            android:layout_below="@id/quiz_selector_country_title"
+            android:layout_toRightOf="@id/quiz_selector_country_icon" />
+
+        <TextView
+            android:id="@+id/quiz_selector_country_level"
+            style="@style/main.text"
+            android:layout_below="@id/quiz_selector_country_hr"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/quiz_selector_country_icon"
+            android:text="LEVEL 1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/quiz_selector_year"
+        style="@style/main.section"
+        android:layout_below="@id/quiz_selector_country"
+        android:paddingTop="20dp" >
+
+        <ImageView
+            android:id="@+id/quiz_selector_year_icon"
+            style="@style/main.icon" />
+
+        <TextView
+            android:id="@+id/quiz_selector_year_title"
+            style="@style/main.text"
+            android:layout_toRightOf="@id/quiz_selector_year_icon"
+            android:text="@string/quiz_selector_year" />
+
+        <TextView
+            android:id="@+id/quiz_selector_year_factor"
+            style="@style/main.text"
+            android:layout_alignParentRight="true"
+            android:text="8X"
+            android:textColor="@color/yellow_500" />
+
+        <View
+            android:id="@+id/quiz_selector_year_hr"
+            style="@style/main.hr"
+            android:layout_below="@id/quiz_selector_year_title"
+            android:layout_toRightOf="@id/quiz_selector_year_icon" />
+
+        <TextView
+            android:id="@+id/quiz_selector_year_level"
+            style="@style/main.text"
+            android:layout_below="@id/quiz_selector_year_hr"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/quiz_selector_year_icon"
+            android:text="LEVEL 1"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+</RelativeLayout>

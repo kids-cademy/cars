@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="about_message1">@string/app_description</string>
+    <string name="about_message2">Car Brands is completely free. Free of annoying ads, no misleading in-app payment, no spy-ware.</string>
+    <string name="about_message3">Development effort is donated. It is a humble way to show gratitude to Internet community that gives us all so much.</string>
+    
+</resources>

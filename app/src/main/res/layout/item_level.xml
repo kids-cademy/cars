@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/level"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/levels_item_height" >
+
+    <RelativeLayout
+        style="@style/levels.item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/level_image"
+            style="@style/levels.image"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/shape_placeholder" />
+
+        <TextView
+            android:id="@+id/level_name"
+            style="@style/levels.name"
+            android:layout_toRightOf="@+id/level_image"
+            android:text="Level 1" />
+
+        <TextView
+            android:id="@+id/level_total"
+            style="@style/levels.label"
+            android:layout_alignParentRight="true"
+            android:text="10" />
+
+        <TextView
+            android:id="@+id/level_separator"
+            style="@style/levels.label"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_toLeftOf="@id/level_total"
+            android:text="/" />
+
+        <TextView
+            android:id="@+id/level_solved"
+            style="@style/levels.label"
+            android:layout_toLeftOf="@id/level_separator"
+            android:text="0" />
+
+        <ProgressBar
+            android:id="@+id/level_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@+id/level_image"
+            android:progress="66" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/level_lock_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_T40" >
+
+    </FrameLayout>
+
+</RelativeLayout>

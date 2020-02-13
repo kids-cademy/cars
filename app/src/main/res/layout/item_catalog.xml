@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_catalog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryLight"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/item_catalog_image"
+        style="@style/catalog.image" />
+
+    <RelativeLayout style="@style/catalog.flag_section" >
+
+        <View
+            android:id="@+id/item_catalog_bg"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:background="?colorPrimaryDark" />
+
+        <TextView
+            android:id="@+id/item_catalog_foundation_year"
+            style="@style/catalog.year.foundation"
+            android:layout_above="@id/item_catalog_bg"
+            android:text="1920" />
+
+        <TextView
+            android:id="@+id/item_catalog_year_separator"
+            style="@style/catalog.year.separator"
+            android:layout_above="@id/item_catalog_bg"
+            android:layout_toRightOf="@id/item_catalog_foundation_year"
+            android:text="-" />
+
+        <TextView
+            android:id="@+id/item_catalog_defunct_year"
+            style="@style/catalog.year.defunct"
+            android:layout_above="@id/item_catalog_bg"
+            android:layout_toRightOf="@id/item_catalog_year_separator"
+            android:text="1986" />
+
+        <ImageView
+            android:id="@+id/item_catalog_flag"
+            style="@style/catalog.flag"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_catalog_name"
+        style="@style/catalog.name"
+        android:text="ALFA ROMEO" />
+
+    <TextView
+        android:id="@+id/item_catalog_country"
+        style="@style/catalog.country"
+        android:text="Romania" />
+
+</LinearLayout>

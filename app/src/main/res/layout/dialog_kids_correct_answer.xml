@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/kids_correct_answer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.9"
+    android:background="?colorPrimaryLight" >
+
+    <ImageView
+        android:id="@+id/kids_correct_answer_logo"
+        style="@style/kids_correct_answer.logo"
+        android:src="@drawable/car_bmw" />
+
+    <FrameLayout style="@style/kids_correct_answer.bonus" >
+
+        <ImageView
+            style="@style/kids_correct_answer.bonus_border"
+            android:src="@drawable/shape_circle" />
+
+        <TextView
+            android:id="@+id/kids_correct_asnwer_bonus"
+            style="@style/kids_correct_answer.bonus_text"
+            android:text="+50" />
+    </FrameLayout>
+
+    <include layout="@layout/compo_close_button" />
+
+</FrameLayout>

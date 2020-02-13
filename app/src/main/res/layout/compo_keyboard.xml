@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kidscademy.cars.view.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:grid="http://schemas.android.com/apk/res/com.kidscademy.cars"
+    android:id="@+id/keyboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryLight"
+    grid:columnCount="8"
+    grid:rowCount="2"
+    grid:useDefaultMargins="false" >
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="A" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="B" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="C" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="D" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="E" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="F" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="G" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="H" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="I" />
+
+    <TextView
+        style="@style/keyboard.key"
+        android:text="J" />
+    
+    <TextView
+        style="@style/keyboard.key"
+        android:text="K" />
+    
+    <TextView
+        style="@style/keyboard.key"
+        android:text="L" />
+    
+    <TextView
+        style="@style/keyboard.key"
+        android:text="M" />
+    
+    <TextView
+        style="@style/keyboard.key"
+        android:text="N" />
+    
+    <TextView
+        style="@style/keyboard.key"
+        android:text="O" />
+    
+    <TextView
+        style="@style/keyboard.key"
+        android:text="P" />
+    
+</com.kidscademy.cars.view.KeyboardView>

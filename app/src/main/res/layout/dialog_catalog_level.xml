@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kidscademy.cars"
+    android:id="@+id/catalog_level"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.kidscademy.cars.CatalogActivity$LevelSelectorDialog"
+    android:alpha="0.9"
+    android:background="?colorPrimaryLight" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/catalog_level_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:hint="LEVEL"
+            android:inputType="number"
+            android:maxEms="4"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/white"
+            android:textColorLink="@color/white"
+            android:textSize="64dp" />
+
+        <View
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@color/white" />
+
+        <android.support.v7.widget.GridLayout
+            android:id="@+id/catalog_level_keyboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:columnCount="3"
+            android:rowCount="4"
+            app:columnCount="3" >
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="1" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="2" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="3" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="4" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="5" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="6" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="7" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="8" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="9" />
+
+            <ImageView
+                style="@style/keyboard.action"
+                android:src="@drawable/button_backspace" />
+
+            <TextView
+                style="@style/keyboard.key.numeric"
+                android:text="0" />
+
+            <ImageView
+                style="@style/keyboard.action"
+                android:src="@drawable/button_check" />
+        </android.support.v7.widget.GridLayout>
+    </LinearLayout>
+
+    <include layout="@layout/compo_close_button" />
+
+</view>

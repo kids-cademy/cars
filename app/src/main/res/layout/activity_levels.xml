@@ -1,0 +1,12 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/levels"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryLight"
+    android:divider="@drawable/abc_list_divider_mtrl_alpha"
+    android:dividerHeight="1dp"
+    tools:context="com.kidscademy.cars.LevelsActivity"
+    tools:listitem="@layout/item_level" >
+
+</ListView>

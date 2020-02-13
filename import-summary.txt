@@ -1,0 +1,300 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* build\
+* build\cars.apk
+* doc\
+* doc\dialog-overlay.vsd
+* proguard-project.txt
+* work\
+* work\audio_buttons\
+* work\audio_buttons\audio_pause.xml
+* work\audio_buttons\audio_stop.xml
+* work\brands\
+* work\brands\abarth.png
+* work\brands\ac-cars.jpg
+* work\brands\acura.jpg
+* work\brands\agrale.jpg
+* work\brands\aixam.jpg
+* work\brands\alfa-romeo.jpg
+* work\brands\alpina.png
+* work\brands\apollo.png
+* work\brands\aptera.jpg
+* work\brands\ariel.jpg
+* work\brands\aro.jpg
+* work\brands\artega.png
+* work\brands\ascari.png
+* work\brands\ashok-leyland.jpg
+* work\brands\aston-martin.png
+* work\brands\audi.png
+* work\brands\autobianchi.jpg
+* work\brands\baic.png
+* work\brands\bentley.png
+* work\brands\bertone.jpg
+* work\brands\borgward.png
+* work\brands\brilliance.png
+* work\brands\bristol.png
+* work\brands\british-leyland.jpg
+* work\brands\brp.jpg
+* work\brands\bugatti.jpg
+* work\brands\buick.jpg
+* work\brands\cadillac.png
+* work\brands\carbon.png
+* work\brands\changan.png
+* work\brands\chery.jpg
+* work\brands\chevrolet.jpg
+* work\brands\chevrolet.png
+* work\brands\chrysler.png
+* work\brands\citroen.png
+* work\brands\cizeta.png
+* work\brands\coda.jpg
+* work\brands\corvette.jpg
+* work\brands\dacia.jpg
+* work\brands\dadi.jpg
+* work\brands\daewoo.png
+* work\brands\daihatsu.gif
+* work\brands\datsun.jpg
+* work\brands\de-tomaso.jpg
+* work\brands\dodge.jpg
+* work\brands\dongfeng.jpg
+* work\brands\donkevoort.jpg
+* work\brands\ds.png
+* work\brands\eagle.png
+* work\brands\elfin.jpg
+* work\brands\elfin.psd
+* work\brands\elva.jpg
+* work\brands\fap.jpg
+* work\brands\faw.png
+* work\brands\ferrari.jpg
+* work\brands\fiat.png
+* work\brands\fisker.jpg
+* work\brands\ford-mustang.jpg
+* work\brands\ford.jpg
+* work\brands\foton.jpg
+* work\brands\fso.jpg
+* work\brands\gaz.png
+* work\brands\geely.png
+* work\brands\gem.jpg
+* work\brands\gem.psd
+* work\brands\gillet.jpg
+* work\brands\ginetta.gif
+* work\brands\great-wall.png
+* work\brands\haifei.png
+* work\brands\haima.jpg
+* work\brands\hillman.jpg
+* work\brands\hino.png
+* work\brands\holden.png
+* work\brands\hommell.jpg
+* work\brands\honda.jpg
+* work\brands\hongqi.png
+* work\brands\hyundai.png
+* work\brands\ikco.jpg
+* work\brands\infiniti.jpg
+* work\brands\innocenti.jpg
+* work\brands\isdera.jpg
+* work\brands\isuzu.jpg
+* work\brands\iveco.png
+* work\brands\jac.png
+* work\brands\jaguar.png
+* work\brands\jmc.png
+* work\brands\kamaz.jpg
+* work\brands\kenworth.jpg
+* work\brands\kia.png
+* work\brands\koenigsegg.jpg
+* work\brands\lada.jpg
+* work\brands\lagonda.jpg
+* work\brands\lamborghini.png
+* work\brands\lancia.png
+* work\brands\land-rover.png
+* work\brands\landwind.jpg
+* work\brands\laraki.jpg
+* work\brands\ldv.jpg
+* work\brands\lexus.jpg
+* work\brands\ligier.jpg
+* work\brands\lincoln.jpg
+* work\brands\lister.jpg
+* work\brands\lotus.png
+* work\brands\luxgen.jpg
+* work\brands\mack.png
+* work\brands\mahindra.jpg
+* work\brands\man.jpg
+* work\brands\marcos.jpg
+* work\brands\marcos.psd
+* work\brands\marussia.png
+* work\brands\maserati.jpg
+* work\brands\mastretta.gif
+* work\brands\maybach.jpg
+* work\brands\mclaren.png
+* work\brands\melkus.png
+* work\brands\mercedes-benz.jpg
+* work\brands\mercury.png
+* work\brands\mg-motor.png
+* work\brands\microcar.jpg
+* work\brands\mini.jpg
+* work\brands\mini.png
+* work\brands\mitsubishi.jpg
+* work\brands\morgan.png
+* work\brands\morris.jpg
+* work\brands\mosler.jpg
+* work\brands\nash.jpg
+* work\brands\naza.png
+* work\brands\nissan.jpg
+* work\brands\nissan.png
+* work\brands\oldsmobile.png
+* work\brands\oltcit.png
+* work\brands\opel.jpg
+* work\brands\pagani.jpg
+* work\brands\panoz.jpg
+* work\brands\pars_khodro.png
+* work\brands\perodua.png
+* work\brands\peugeot.png
+* work\brands\pgo.jpg
+* work\brands\piaggio.png
+* work\brands\pininfarina.jpg
+* work\brands\plymouth.jpg
+* work\brands\polaris.png
+* work\brands\porsche.png
+* work\brands\premier.jpg
+* work\brands\proton.jpg
+* work\brands\puch.jpg
+* work\brands\renault-samsung.png
+* work\brands\renault.png
+* work\brands\rimac.jpg
+* work\brands\rolls-royce.png
+* work\brands\rossion.jpg
+* work\brands\rover.jpg
+* work\brands\saab.jpg
+* work\brands\saic.png
+* work\brands\saipa.png
+* work\brands\saleen.jpg
+* work\brands\saturn.jpg
+* work\brands\scania.jpg
+* work\brands\scion.png
+* work\brands\seat.png
+* work\brands\shelby.jpg
+* work\brands\sisu.png
+* work\brands\skoda.png
+* work\brands\smart.jpg
+* work\brands\spyker.png
+* work\brands\ssangyong.png
+* work\brands\ssc.jpg
+* work\brands\studebaker.jpg
+* work\brands\subaru.jpg
+* work\brands\suzuki.jpg
+* work\brands\talbot.png
+* work\brands\tata.png
+* work\brands\tatra.png
+* work\brands\tauro.jpeg
+* work\brands\temsa.jpg
+* work\brands\tesla.png
+* work\brands\thairung.png
+* work\brands\toyota.jpg
+* work\brands\trabant.jpg
+* work\brands\tramontana.png
+* work\brands\triumph.png
+* work\brands\troller.png
+* work\brands\tvs.jpg
+* work\brands\uaz.jpg
+* work\brands\ud.jpg
+* work\brands\unimog.png
+* work\brands\vauxhall.jpg
+* work\brands\vector.png
+* work\brands\venturi.jpg
+* work\brands\veritas.jpg
+* work\brands\volkswagen.png
+* work\brands\volvo.png
+* work\brands\w-motors.png
+* work\brands\wartburg.jpg
+* work\brands\western.jpg
+* work\brands\westfield.gif
+* work\brands\wiesmann-logo.jpg
+* work\brands\yamaha.jpg
+* work\brands\yulon.jpg
+* work\brands\zagato.jpg
+* work\brands\zastava.jpg
+* work\brands\zaz.jpg
+* work\brands\zenvo.jpg
+* work\brands\zil.jpg
+* work\cars.png
+* work\feature.psd
+* work\hexagon.png
+* work\kids-cademy-logo-inverse.png
+* work\logo.png
+* work\logo.psd
+* work\logo2.png
+* work\slide\
+* work\slide\brand-quiz-screenshot.png
+* work\slide\catalog-screenshot.png
+* work\slide\catalog.psd
+* work\slide\country-quiz-screenshot.png
+* work\slide\drawer-screenshot.png
+* work\slide\game-screenshot.png
+* work\slide\game.psd
+* work\slide\kids-game-screenshot.png
+* work\slide\kids-game.psd
+* work\slide\levels-screenshot.png
+* work\slide\main-screenshot.png
+* work\slide\no-ads-screenshot.png
+* work\slide\quiz-selector-screenshot.png
+* work\slide\quiz.psd
+* work\slide\recommended-screenshot.png
+* work\slide\settings-screenshot.png
+* work\slide\share-screenshot.png
+* work\slide\support.psd
+* work\slide\year-quiz-screenshot.png
+* work\store\
+* work\store\facebook.png
+* work\store\feature.png
+* work\store\logo.png
+* work\store\screenshot\
+* work\store\screenshot\01-main.png
+* work\store\screenshot\02-levels.png
+* work\store\screenshot\03-game.png
+* work\store\screenshot\04-quiz-selector.png
+* work\store\screenshot\05-quiz.png
+* work\store\screenshot\06-catalog.png
+* work\store\screenshot\07-game-hints.png
+* work\store\screenshot\08-kids-game.png
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:23.4.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

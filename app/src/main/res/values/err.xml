@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="err_no_storage">SD card not accessible. Unable to store or read Fables collection. Application abort.</string>
+    <string name="err_load_fail">Fables collection loading fails. Application abort.\n\nPlease check connection to Internet and SD card free space.</string>
+</resources>

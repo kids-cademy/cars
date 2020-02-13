@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    class="com.kidscademy.cars.GameActivity$InputVerifyDialog"
+    android:alpha="0.9"
+    android:background="?colorPrimaryLight" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center"
+            android:text="Verify current input"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="?colorPrimaryDark" >
+
+            <com.kidscademy.cars.view.NameView
+                android:id="@+id/input_verify_brand_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <TextView
+                    style="@style/letter"
+                    android:text="_" />
+
+                <TextView
+                    style="@style/letter"
+                    android:text="_" />
+
+                <TextView
+                    style="@style/letter"
+                    android:text="D" />
+
+                <TextView
+                    style="@style/letter"
+                    android:text="_" />
+
+                <TextView
+                    style="@style/letter"
+                    android:text="_" />
+
+                <TextView
+                    style="@style/letter"
+                    android:text="_" />
+            </com.kidscademy.cars.view.NameView>
+        </FrameLayout>
+    </LinearLayout>
+
+    <include layout="@layout/compo_close_button" />
+
+</view>

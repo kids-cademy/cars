@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="slide"></style>
+
+    <style name="slide.image_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@integer/slide_image_weight</item>
+        <item name="android:padding">@dimen/slide_image_padding</item>
+    </style>
+
+    <style name="slide.text_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">@integer/slide_text_weight</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/slide_text_padding</item>
+    </style>
+
+    <style name="slide.title">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/slide_title_bottom</item>
+    </style>
+
+    <style name="slide.base_text">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+    </style>
+
+    <style name="slide.text" parent="slide.base_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="slide.themes_color_cell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_margin">@dimen/slide_preferences_cell_margin</item>
+        <item name="android:padding">@dimen/slide_preferences_cell_padding</item>
+    </style>
+
+    <style name="slide.themes_color_name">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:lines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <string name="slide_game_title">Car Brands</string>
+    <string name="slide_game_text1">Car Brands challenge you to recognize the logo of car manufacturers from all over the world, active or ceased.</string>
+    <string name="slide_game_text2">There are 20 levels organized by brand popularity. More popular brands are listed first so that difficulty increases on higher levels.</string>
+    <string name="slide_game_text3">Use info button to trade quiz credits for hints.</string>
+    <string name="slide_quiz_title">Quiz</string>
+    <string name="slide_quiz_text1">There are quizzes for brand name, headquarter country and foundation year. Year quiz is more difficult and earns eight times more credits.</string>
+    <string name="slide_quiz_text2">Quizzes are organized by levels with increasing difficulty, the same levels as for game.</string>
+    <string name="slide_quiz_text3">Take a quiz and earn credits. Use quiz credits to trade game hints.</string>
+    <string name="slide_kids_game_title">Kids Mode</string>
+    <string name="slide_kids_game_text1">There is a kids mode with simplified game and user interface. In kids mode quiz is not included.</string>
+    <string name="slide_kids_game_text2">Kids mode uses the same levels as expert game. Game progress is kept separately for kids and full mode so that is possible to switch between modes.</string>
+    <string name="slide_kids_game_text3">Enable kids mode from application settings.</string>
+    <string name="slide_catalog_title">Catalog</string>
+    <string name="slide_catalog_text1">From main page you can open catalog that lists informations about all brands.</string>
+    <string name="slide_catalog_text2">Catalog is organized on the same levels as game. Current level is updated when play game but there is the option to select any level.</string>
+    <string name="slide_catalog_text3">Use catalog to learn about not known brands. It avoid the need to search on Internet.</string>
+    <string name="slide_settings_title">Settings</string>
+    <string name="slide_settings_text1">Use Settings / Colors Pallete to adjust user interface colors to your style and device screen.</string>
+    <string name="slide_settings_text2">Also from settings you can switch between kids and full operation modes.</string>
+    <string name="slide_support_title">Support Development</string>
+    <string name="slide_support_text1">Please support development effort. This application is completely free. We need your help to sustain development.</string>
+    <string name="slide_support_text2">Rate and share this app! It is important for store rank so that this application to be easier found.</string>
+    <string name="slide_support_text3">Read No Ads Manifest and agree with it. There is also the option to not agree.</string>
+
+    <integer name="slide_image_weight">1</integer>
+    <integer name="slide_text_weight">1</integer>
+
+    <item name="slide_no_ads_spoke_size" format="float" type="dimen">0.45</item>
+
+    <dimen name="slide_image_padding">20dp</dimen>
+    <dimen name="slide_text_padding">20dp</dimen>
+    <dimen name="slide_title_size">30dp</dimen>
+    <dimen name="slide_title_bottom">20dp</dimen>
+    <dimen name="slide_no_ads_image_top">40dp</dimen>
+    <dimen name="slide_preferences_cell_size">64dp</dimen>
+    <dimen name="slide_preferences_cell_margin">4dp</dimen>
+    <dimen name="slide_preferences_cell_padding">2dp</dimen>
+
+    <array name="slide_welcome_images">
+        <item>slide_fox</item>
+        <item>slide_frog</item>
+        <item>slide_insect</item>
+        <item>slide_lion</item>
+        <item>slide_stork</item>
+        <item>slide_wolf</item>
+    </array>
+    <array name="slide_no_ads_images">
+        <item>slide_no_spy_ware</item>
+        <item>slide_no_ads</item>
+        <item>slide_no_in_app_payment</item>
+    </array>
+    <array name="slide_preferences_colors">
+        <item>@color/orange_500</item>
+        <item>@color/deep_orange_500</item>
+        <item>@color/brown_500</item>
+        <item>@color/red_500</item>
+        <item>@color/pink_500</item>
+        <item>@color/purple_500</item>
+        <item>@color/deep_purple_500</item>
+        <item>@color/indigo_500</item>
+        <item>@color/blue_500</item>
+        <item>@color/blue_grey_500</item>
+        <item>@color/teal_500</item>
+        <item>@color/green_500</item>
+    </array>
+    <array name="slide_preferences_color_names">
+        <item>Orange</item>
+        <item>Deep Orange</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Blue Grey</item>
+        <item>Teal</item>
+        <item>Green</item>
+    </array>
+
+</resources>

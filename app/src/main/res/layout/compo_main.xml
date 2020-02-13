@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kidscademy.cars"
+    android:id="@+id/main_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?colorPrimaryLight"
+        android:padding="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/main_catalog"
+            style="@style/main.section" >
+
+            <ImageView
+                android:id="@+id/main_catalog_icon"
+                style="@style/main.icon" />
+
+            <TextView
+                android:id="@+id/main_catalog_title"
+                style="@style/main.text"
+                android:layout_toRightOf="@id/main_catalog_icon"
+                android:text="@string/main_catalog" />
+
+            <View
+                style="@style/main.hr"
+                android:layout_below="@id/main_catalog_title"
+                android:layout_toRightOf="@id/main_catalog_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_play"
+            style="@style/main.section"
+            android:layout_below="@id/main_catalog" >
+
+            <ImageView
+                android:id="@+id/main_play_icon"
+                style="@style/main.icon" />
+
+            <TextView
+                android:id="@+id/main_play_title"
+                style="@style/main.text"
+                android:layout_toRightOf="@id/main_play_icon"
+                android:text="@string/main_play" />
+
+            <View
+                android:id="@+id/main_play_hr"
+                style="@style/main.hr"
+                android:layout_below="@id/main_play_title"
+                android:layout_toRightOf="@id/main_play_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_quiz"
+            style="@style/main.section"
+            android:layout_below="@id/main_play" >
+
+            <ImageView
+                android:id="@+id/main_quiz_icon"
+                style="@style/main.icon" />
+
+            <TextView
+                android:id="@+id/main_quiz_title"
+                style="@style/main.text"
+                android:layout_toRightOf="@id/main_quiz_icon"
+                android:text="@string/main_quiz" />
+
+            <View
+                android:id="@+id/main_quiz_hr"
+                style="@style/main.hr"
+                android:layout_below="@id/main_quiz_title"
+                android:layout_toRightOf="@id/main_quiz_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/main_score"
+            style="@style/main.section"
+            android:layout_alignParentBottom="true" >
+
+            <ImageView
+                android:id="@+id/main_score_icon"
+                style="@style/main.icon" />
+
+            <TextView
+                android:id="@+id/main_score_title"
+                style="@style/main.text"
+                android:layout_toRightOf="@id/main_score_icon"
+                android:text="@string/main_score" />
+
+            <View
+                style="@style/main.hr"
+                android:layout_below="@id/main_score_title"
+                android:layout_toRightOf="@id/main_score_icon" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <js.view.DialogOverlay
+        android:id="@+id/main_body_dialog_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:closeButtonId="@+id/compo_close" />
+
+</FrameLayout>

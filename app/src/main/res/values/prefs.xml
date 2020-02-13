@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pref_summary">Car Brands Preferences</string>
+    <string name="pref_title">Preferences</string>
+    <string name="pref_kids_mode_key">pref.mode.kids</string>
+    <string name="pref_kids_mode_title">Kids Mode</string>
+    <string name="pref_kids_mode_summary">Enable kids mode with easier game and simplified user interface.</string>
+    <string name="pref_official_country_key">pref.official.country</string>
+    <string name="pref_official_country_title">Official Country Name</string>
+    <string name="pref_official_country_summary">Use official name when display brand country.</string>
+    <string name="pref_key_vibrator_key">pref.key.vibration</string>
+    <string name="pref_key_vibrator_title">Key Vibration</string>
+    <string name="pref_key_vibrator_summary">Vibrate when press keys.</string>
+    
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="quiz"></style>
+
+    <style name="quiz.toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?actionBarSize</item>
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:paddingLeft">@dimen/quiz_toolbar_padding</item>
+        <item name="android:paddingRight">@dimen/quiz_toolbar_padding</item>
+    </style>
+
+    <style name="quiz.label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/quiz_label_size</item>
+    </style>
+
+    <style name="quiz.label.separator">
+        <item name="android:layout_marginLeft">@dimen/quiz_separator_space</item>
+        <item name="android:layout_marginRight">@dimen/quiz_separator_space</item>
+    </style>
+
+    <style name="quiz.logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">?colorPrimaryLight</item>
+        <item name="android:padding">@dimen/quiz_logo_padding</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="quiz.name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?colorPrimaryDark</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingBottom">@dimen/quiz_name_padding</item>
+        <item name="android:paddingTop">@dimen/quiz_name_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/quiz_name_size</item>
+    </style>
+
+    <style name="quiz.options_section">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?colorPrimaryLight</item>
+        <item name="android:padding">1dp</item>
+        <item name="columnCount">2</item>
+        <item name="rowCount">3</item>
+    </style>
+
+    <style name="quiz.option">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_gravity">fill</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:background">@color/black_T40</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:lines">3</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/quiz_option_size</item>
+    </style>
+
+    <dimen name="quiz_toolbar_padding">10dp</dimen>
+    <dimen name="quiz_label_size">28dp</dimen>
+    <dimen name="quiz_separator_space">4dp</dimen>
+    <dimen name="quiz_logo_padding">20dp</dimen>
+    <dimen name="quiz_name_size">32dp</dimen>
+    <dimen name="quiz_name_padding">20dp</dimen>
+    <dimen name="quiz_option_size">14dp</dimen>
+    
+</resources>

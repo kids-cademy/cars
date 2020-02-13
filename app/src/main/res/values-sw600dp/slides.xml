@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="base_slide_text">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    
+    <integer name="slide_image_weight">2</integer>
+    <integer name="slide_text_weight">1</integer>
+    
+    <dimen name="slide_image_padding">80dp</dimen>
+    <dimen name="slide_title_size">36dp</dimen>
+    <dimen name="slide_title_top">120dp</dimen>
+    <dimen name="slide_no_ads_icon_size">200dp</dimen>
+    <dimen name="slide_no_ads_icon_gap">18dp</dimen>
+    <dimen name="slide_preferences_cell_size">96dp</dimen>
+    <dimen name="slide_preferences_cell_margin">4dp</dimen>
+    <dimen name="slide_preferences_cell_padding">4dp</dimen>
+
+</resources>

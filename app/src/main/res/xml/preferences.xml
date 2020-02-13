@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kidscademy.fables"
+    android:key="pref"
+    android:persistent="true"
+    android:summary="@string/pref_summary"
+    android:title="@string/pref_title" >
+
+    <PreferenceCategory
+        android:key="pref.reader"
+        android:title="@string/pref_ui" >
+        <CheckBoxPreference
+            android:defaultValue="@bool/boolean_false"
+            android:key="@string/pref_kids_mode_key"
+            android:summary="@string/pref_kids_mode_summary"
+            android:title="@string/pref_kids_mode_title" />
+
+        <js.view.ColorPreference
+            android:defaultValue="@android:color/white"
+            android:key="@string/pref_style_color_key"
+            android:summary="@string/pref_style_color_summary"
+            android:title="@string/pref_style_color_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="@bool/boolean_false"
+            android:key="@string/pref_official_country_key"
+            android:summary="@string/pref_official_country_summary"
+            android:title="@string/pref_official_country_title" />
+        <CheckBoxPreference
+            android:defaultValue="@bool/boolean_false"
+            android:key="@string/pref_key_vibrator_key"
+            android:summary="@string/pref_key_vibrator_summary"
+            android:title="@string/pref_key_vibrator_title" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref.developer"
+        android:title="@string/pref_developer" >
+        <CheckBoxPreference
+            android:defaultValue="@bool/boolean_true"
+            android:key="@string/pref_developer_data_key"
+            android:summary="@string/pref_developer_data_summary"
+            android:title="@string/pref_developer_data_title" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

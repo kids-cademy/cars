@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kidscademy.cars.Catalog" >
+
+    <item
+        android:id="@+id/action_filter_list"
+        android:enabled="true"
+        android:icon="@drawable/ic_filter_list"
+        android:title="@string/action_filter_list"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_view_grid"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_grid"
+        android:title="@string/action_view_grid"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_speaker_notes"
+        android:enabled="true"
+        android:icon="@drawable/ic_speaker_notes"
+        android:title="@string/action_speaker_notes"
+        android:visible="true"
+        app:showAsAction="always"/>
+</menu>

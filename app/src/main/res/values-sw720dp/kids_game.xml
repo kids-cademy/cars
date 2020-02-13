@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="kids_game_image_padding">30dp</dimen>
+    <dimen name="kids_game_border_width">4dp</dimen>
+    
+</resources>

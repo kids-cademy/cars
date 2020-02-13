@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="game"></style>
+
+    <style name="game.label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+    <string name="game_caption">SPELL IT!</string>
+
+    <dimen name="game_keyboard_y_margin">20dp</dimen>
+
+</resources>

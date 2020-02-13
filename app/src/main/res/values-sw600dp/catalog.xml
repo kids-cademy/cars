@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- flag section height should be half flag height -->
+    <dimen name="catalog_controls_height">160dp</dimen>
+    <dimen name="catalog_flag_height">160dp</dimen>
+    <dimen name="catalog_flag_section_height">80dp</dimen>
+    <dimen name="catalog_flag_section_half_height">40dp</dimen>
+    <dimen name="catalog_flag_margin">30dp</dimen>
+    <dimen name="catalog_names_padding">20dp</dimen>
+    <dimen name="catalog_name_size">40dp</dimen>
+    <dimen name="catalog_country_size">22dp</dimen>
+    <dimen name="catalog_years_margin">10dp</dimen>
+    <dimen name="catalog_separator_margin">4dp</dimen>
+    <dimen name="catalog_image_padding">60dp</dimen>
+
+</resources>

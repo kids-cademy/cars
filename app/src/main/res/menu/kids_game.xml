@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kidscademy.sounds.GuessSound" >
+
+    <item
+        android:id="@+id/action_view_carousel"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_carousel"
+        android:title="@string/action_view_carousel"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_view_grid"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_grid"
+        android:title="@string/action_view_grid"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_play"
+        android:enabled="true"
+        android:icon="@drawable/ic_play"
+        android:title="@string/action_play"
+        android:visible="true"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/action_skip_next"
+        android:enabled="true"
+        android:icon="@drawable/ic_skip_next"
+        android:title="@string/action_skip_next"
+        android:visible="true"
+        app:showAsAction="always"/>
+
+</menu>

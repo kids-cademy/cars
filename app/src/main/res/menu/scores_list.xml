@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kidscademy.sounds.Score" >
+
+    <!-- showAsAction should be used in application namespace otherwise menu item is not show into action bar -->
+    <item
+        android:id="@+id/score_order_by"
+        app:actionViewClass="android.widget.Spinner"
+        app:showAsAction="always"/>
+
+</menu>

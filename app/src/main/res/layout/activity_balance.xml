@@ -1,0 +1,150 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/balance"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryLight"
+    tools:context="com.kidscademy.cars.BalanceActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="@string/balance_your_score"
+        android:textAllCaps="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32sp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/balance_kids_game"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:src="@drawable/shape_circle"
+            android:tint="@android:color/white" />
+
+        <TextView
+            android:id="@+id/balance_kids_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+50"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="?colorPrimaryDark"
+            android:textSize="50dp" />
+    </FrameLayout>
+
+    <GridLayout
+        android:id="@+id/balance_standard_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/balance.label"
+            android:text="@string/balance_total_levels" />
+
+        <TextView
+            style="@style/balance.separator"
+            android:text="@string/balance_separator" />
+
+        <TextView
+            android:id="@+id/balance_total_levels"
+            style="@style/balance.value"
+            android:text="20" />
+
+        <TextView
+            style="@style/balance.label"
+            android:text="@string/balance_unlocked_levels" />
+
+        <TextView
+            style="@style/balance.separator"
+            android:text="@string/balance_separator" />
+
+        <TextView
+            android:id="@+id/balance_unlocked_levels"
+            style="@style/balance.value"
+            android:text="10" />
+
+        <TextView
+            style="@style/balance.label"
+            android:text="@string/balance_completed_levels" />
+
+        <TextView
+            style="@style/balance.separator"
+            android:text="@string/balance_separator" />
+
+        <TextView
+            android:id="@+id/balance_completed_levels"
+            style="@style/balance.value"
+            android:text="4" />
+
+        <TextView
+            style="@style/balance.label"
+            android:layout_marginTop="@dimen/balance_group_space"
+            android:text="@string/balance_total_brands" />
+
+        <TextView
+            style="@style/balance.separator"
+            android:layout_marginTop="@dimen/balance_group_space"
+            android:text="@string/balance_separator" />
+
+        <TextView
+            android:id="@+id/balance_total_brands"
+            style="@style/balance.value"
+            android:layout_marginTop="@dimen/balance_group_space"
+            android:text="200" />
+
+        <TextView
+            style="@style/balance.label"
+            android:text="@string/balance_completed_brands" />
+
+        <TextView
+            style="@style/balance.separator"
+            android:text="@string/balance_separator" />
+
+        <TextView
+            android:id="@+id/balance_completed_brands"
+            style="@style/balance.value"
+            android:text="123" />
+
+        <TextView
+            style="@style/balance.label"
+            android:layout_marginTop="@dimen/balance_group_space"
+            android:text="@string/balance_points" />
+
+        <TextView
+            style="@style/balance.separator"
+            android:layout_marginTop="@dimen/balance_group_space"
+            android:text="@string/balance_separator" />
+
+        <TextView
+            android:id="@+id/balance_points"
+            style="@style/balance.value"
+            android:layout_marginTop="@dimen/balance_group_space"
+            android:text="+1234" />
+
+        <TextView
+            style="@style/balance.label"
+            android:text="@string/balance_credits" />
+
+        <TextView
+            style="@style/balance.separator"
+            android:text="@string/balance_separator" />
+
+        <TextView
+            android:id="@+id/balance_credits"
+            style="@style/balance.value"
+            android:text="+0123" />
+    </GridLayout>
+
+</FrameLayout>

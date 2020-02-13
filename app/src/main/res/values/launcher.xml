@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="launcher"></style>
+
+    <style name="launcher.logotype">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/launcher_logotype_margin_top</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/launcher_logotype_font_size</item>
+    </style>
+
+    <style name="launcher.logo">
+        <item name="android:layout_width">@dimen/launcher_logo_size</item>
+        <item name="android:layout_height">@dimen/launcher_logo_size</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="launcher.text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:layout_marginLeft">@dimen/launcher_text_margin_x</item>
+        <item name="android:layout_marginRight">@dimen/launcher_text_margin_x</item>
+        <item name="android:layout_marginBottom">@dimen/launcher_text_margin_bottom</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <dimen name="launcher_logotype_margin_top">60dp</dimen>
+    <dimen name="launcher_logotype_font_size">32dp</dimen>
+    <dimen name="launcher_logo_size">200dp</dimen>
+    <dimen name="launcher_text_margin_bottom">60dp</dimen>
+    <dimen name="launcher_text_margin_x">20dp</dimen>
+    <string name="launcher_error">There is a temporary server error that prevent Car Brands loading. Please try again after couple minutes. We apologize for inconvenience.</string>
+
+</resources>

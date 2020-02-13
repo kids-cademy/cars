@@ -1,0 +1,46 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kidscademy.cars"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/catalog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryLight"
+    tools:context="com.kidscademy.cars.CatalogActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/catalog_pager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout style="@style/catalog.controls" >
+
+            <ImageView
+                android:id="@+id/catalog_previous"
+                style="@style/catalog.action"
+                android:src="@drawable/ic_skip_previous" />
+
+            <ImageView
+                android:id="@+id/catalog_play"
+                style="@style/catalog.action"
+                android:src="@drawable/action_audio_play" />
+
+            <ImageView
+                android:id="@+id/catalog_next"
+                style="@style/catalog.action"
+                android:src="@drawable/ic_skip_next" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <js.view.DialogOverlay
+        android:id="@+id/catalog_dialog_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:closeButtonId="@+id/compo_close" />
+
+</FrameLayout>

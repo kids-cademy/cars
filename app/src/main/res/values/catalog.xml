@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="catalog"></style>
+
+    <style name="catalog.controls">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/catalog_controls_height</item>
+    </style>
+
+    <style name="catalog.action">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="catalog.image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:padding">@dimen/catalog_image_padding</item>
+    </style>
+
+    <style name="catalog.flag_section">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/catalog_flag_section_height</item>
+    </style>
+
+    <style name="catalog.flag_section_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/catalog_flag_section_half_height</item>
+        <item name="android:background">?colorPrimaryDark</item>
+    </style>
+
+    <style name="catalog.flag">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/catalog_flag_height</item>
+        <item name="android:layout_marginRight">@dimen/catalog_flag_margin</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitEnd</item>
+    </style>
+
+    <style name="catalog.name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?colorPrimaryDark</item>
+        <item name="android:paddingLeft">@dimen/catalog_names_padding</item>
+        <item name="android:paddingTop">@dimen/catalog_names_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textSize">@dimen/catalog_name_size</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="catalog.country">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">?colorPrimaryDark</item>
+        <item name="android:paddingLeft">@dimen/catalog_names_padding</item>
+        <item name="android:paddingBottom">@dimen/catalog_names_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/catalog_country_size</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="catalog.year">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+
+    <style name="catalog.year.foundation">
+        <item name="android:layout_marginLeft">@dimen/catalog_years_margin</item>
+    </style>
+
+    <style name="catalog.year.defunct"></style>
+
+    <style name="catalog.year.separator">
+        <item name="android:layout_marginLeft">@dimen/catalog_separator_margin</item>
+        <item name="android:layout_marginRight">@dimen/catalog_separator_margin</item>
+    </style>
+
+    <!-- flag section height should be half flag height -->
+    <dimen name="catalog_controls_height">96dp</dimen>
+    <dimen name="catalog_flag_height">128dp</dimen>
+    <dimen name="catalog_flag_section_height">64dp</dimen>
+    <dimen name="catalog_flag_section_half_height">32dp</dimen>
+    <dimen name="catalog_flag_margin">20dp</dimen>
+    <dimen name="catalog_names_padding">10dp</dimen>
+    <dimen name="catalog_name_size">32dp</dimen>
+    <dimen name="catalog_country_size">16dp</dimen>
+    <dimen name="catalog_years_margin">10dp</dimen>
+    <dimen name="catalog_separator_margin">4dp</dimen>
+    <dimen name="catalog_image_padding">30dp</dimen>
+</resources>

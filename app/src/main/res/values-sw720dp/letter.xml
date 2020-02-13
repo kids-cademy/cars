@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <dimen name="letter_size">52dp</dimen>
+    <dimen name="letter_min_width">42dp</dimen>
+    <dimen name="letter_x_padding">10dp</dimen>
+    <dimen name="letter_y_padding">60dp</dimen>
+
+</resources>

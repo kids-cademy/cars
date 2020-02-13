@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.kidscademy.cars.Balance" >
+
+    <item
+        android:id="@+id/action_view_list"
+        android:enabled="true"
+        android:icon="@drawable/ic_view_list"
+        android:title="@string/action_view_list"
+        android:visible="true"
+        app:showAsAction="always"/>
+    
+    <item
+        android:id="@+id/action_remove"
+        android:enabled="true"
+        android:icon="@drawable/ic_remove"
+        android:title="@string/action_remove"
+        android:visible="true"
+        app:showAsAction="always"/>
+    
+</menu>

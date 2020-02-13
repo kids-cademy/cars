@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Car Brands</string>
+    <string name="app_caption">Car Brands</string>
+    <string name="app_logotype">Game and quizzes about car brands</string>
+    <string name="app_description">Car Brands challenge you to recognize the logo of car manufacturers from all over the world, active or ceased.</string>
+    <string name="facebook_apikey">1551027845205580</string>
+
+</resources>

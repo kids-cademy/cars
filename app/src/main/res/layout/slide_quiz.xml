@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/slide_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_600"
+    android:orientation="vertical" >
+
+    <FrameLayout style="@style/slide.image_layout" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/slide_quiz" />
+    </FrameLayout>
+
+    <LinearLayout style="@style/slide.text_layout" >
+
+        <TextView
+            style="@style/slide.title"
+            android:text="@string/slide_quiz_title" />
+
+        <TextView
+            style="@style/slide.text"
+            android:text="@string/slide_quiz_text1" />
+
+        <TextView
+            style="@style/slide.text"
+            android:text="@string/slide_quiz_text2" />
+
+        <TextView
+            style="@style/slide.text"
+            android:text="@string/slide_quiz_text3" />
+    </LinearLayout>
+
+</LinearLayout>

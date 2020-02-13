@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="kids_correct_answer_logo_size">300dp</dimen>
+    <dimen name="kids_correct_answer_logo_margin">60dp</dimen>
+    <dimen name="kids_correct_answer_bonus_size">180dp</dimen>
+    <dimen name="kids_correct_answer_bonus_margin">220dp</dimen>
+    <dimen name="kids_correct_answer_bonus_text_size">80dp</dimen>
+
+</resources>

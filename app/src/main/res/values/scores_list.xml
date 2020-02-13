@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="scores_list"></style>
+
+    <style name="scores_list.item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/scores_list_item_height</item>
+        <item name="android:padding">@dimen/scores_list_item_padding</item>
+    </style>
+
+    <style name="scores_list.icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/scores_list_icon_margin</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="scores_list.name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/scores_list_name_size</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="scores_list.value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/scores_list_value_margin</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">?textColorInverse</item>
+        <item name="android:textSize">@dimen/scores_list_value_size</item>
+    </style>
+    <string name="scores_list_caption">SCORE</string>
+    <string name="scores_list_confirm_remove">You are about to remove recorded scores. Please confirm.</string>
+
+    <!-- TODO keep in sync with com.kidscademy.model.OrderBy -->
+    <string-array name="scores_list_order_by">
+        <item>SCORE UP</item>
+        <item>SCORE DOWN</item>
+        <item>NAME UP</item>
+        <item>NAME DOWN</item>
+    </string-array>
+
+    <dimen name="scores_list_item_height">96dp</dimen>
+    <dimen name="scores_list_item_padding">10dp</dimen>
+    <dimen name="scores_list_icon_margin">20dp</dimen>
+    <dimen name="scores_list_name_size">20dp</dimen>
+    <dimen name="scores_list_value_size">28dp</dimen>
+    <dimen name="scores_list_value_margin">4dp</dimen>
+    
+</resources>

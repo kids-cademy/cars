@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="score_item_height">128dp</dimen>
+    <dimen name="score_item_padding">14dp</dimen>
+    <dimen name="score_icon_margin">40dp</dimen>
+    <dimen name="score_name_size">20dp</dimen>
+    <dimen name="score_value_size">28dp</dimen>
+    <dimen name="score_value_margin">4dp</dimen>
+
+</resources>

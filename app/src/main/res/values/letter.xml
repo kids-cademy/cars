@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="letter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">@dimen/letter_y_padding</item>
+        <item name="android:paddingBottom">@dimen/letter_y_padding</item>
+        <item name="android:paddingRight">@dimen/letter_x_padding</item>
+        <item name="android:paddingLeft">@dimen/letter_x_padding</item>
+        <item name="android:textSize">@dimen/letter_size</item>
+        <item name="android:minWidth">@dimen/letter_min_width</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <dimen name="letter_size">26dp</dimen>
+    <dimen name="letter_min_width">22dp</dimen>
+    <dimen name="letter_x_padding">0dp</dimen>
+    <dimen name="letter_y_padding">20dp</dimen>
+
+</resources>

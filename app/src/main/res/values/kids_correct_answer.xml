@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="kids_correct_answer"></style>
+
+    <style name="kids_correct_answer.logo">
+        <item name="android:layout_width">@dimen/kids_correct_answer_logo_size</item>
+        <item name="android:layout_height">@dimen/kids_correct_answer_logo_size</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/kids_correct_answer_logo_margin</item>
+    </style>
+
+    <style name="kids_correct_answer.bonus">
+        <item name="android:layout_width">@dimen/kids_correct_answer_bonus_size</item>
+        <item name="android:layout_height">@dimen/kids_correct_answer_bonus_size</item>
+        <item name="android:layout_gravity">bottom|center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/kids_correct_answer_bonus_margin</item>
+    </style>
+
+    <style name="kids_correct_answer.bonus_border">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="kids_correct_answer.bonus_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">?colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/kids_correct_answer_bonus_text_size</item>
+    </style>
+
+    <dimen name="kids_correct_answer_logo_size">200dp</dimen>
+    <dimen name="kids_correct_answer_logo_margin">20dp</dimen>
+    <dimen name="kids_correct_answer_bonus_size">140dp</dimen>
+    <dimen name="kids_correct_answer_bonus_margin">140dp</dimen>
+    <dimen name="kids_correct_answer_bonus_text_size">60dp</dimen>
+
+</resources>

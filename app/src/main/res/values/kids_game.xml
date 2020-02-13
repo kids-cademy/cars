@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="kids_game"></style>
+
+    <style name="kids_game.image">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">@dimen/kids_game_image_padding</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="layout_gravity">fill</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+
+    <style name="kids_game.preview">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">40dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="kids_game.preview.bg">
+        <item name="android:layout_margin">0dp</item>
+        <item name="android:src">@drawable/shape_circle</item>
+        <item name="android:tint">?colorPrimaryLight</item>
+    </style>
+
+    <style name="kids_game.action"></style>
+
+    <style name="kids_game.action.frame">
+        <item name="android:layout_width">@dimen/kids_game_action_size</item>
+        <item name="android:layout_height">@dimen/kids_game_action_size</item>
+        <item name="android:layout_marginBottom">@dimen/kids_game_action_margin</item>
+        <item name="android:layout_marginRight">@dimen/kids_game_action_margin</item>
+    </style>
+
+    <style name="kids_game.action.image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="android:src">@drawable/ic_close</item>
+    </style>
+
+    <style name="kids_game.action.image.bg">
+        <item name="android:src">@drawable/shape_circle</item>
+        <item name="android:tint">?colorPrimary</item>
+    </style>
+
+    <dimen name="kids_game_image_padding">20dp</dimen>
+    <dimen name="kids_game_border_width">1dp</dimen>
+    <dimen name="kids_game_preview_margin">60dp</dimen>
+    <dimen name="kids_game_action_size">64dp</dimen>
+    <dimen name="kids_game_action_margin">20dp</dimen>
+
+    <string name="kids_game_caption">GUESS IT!</string>
+
+</resources>

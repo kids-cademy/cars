@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_over"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?colorPrimaryLight"
+    tools:context="com.kidscademy.cars.GameOverActivity" >
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:src="@drawable/shape_circle"
+        android:tint="@android:color/white" />
+
+    <TextView
+        android:id="@+id/balance_kids_score"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="Game Over"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="?colorPrimaryDark"
+        android:textSize="40dp" />
+
+</FrameLayout>

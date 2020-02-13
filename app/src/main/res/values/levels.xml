@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="levels"></style>
+
+    <style name="levels.item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/levels_item_padding</item>
+    </style>
+
+    <style name="levels.image">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/levels_icon_margin</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="levels.name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="levels.label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <string name="levels_caption">CHOOSE LEVEL</string>
+
+    <dimen name="levels_name_size">28dp</dimen>
+    <dimen name="levels_label_size">28dp</dimen>
+    <dimen name="levels_icon_margin">20dp</dimen>
+    <dimen name="levels_item_height">96dp</dimen>
+    <dimen name="levels_item_padding">10dp</dimen>
+    
+</resources>

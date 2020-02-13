@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="balance"></style>
+
+    <style name="balance.label">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_marginBottom">@dimen/balance_row_space</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="balance.value">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    </style>
+
+    <style name="balance.separator">
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:layout_marginLeft">@dimen/balance_separator_space</item>
+        <item name="android:layout_marginRight">@dimen/balance_separator_space</item>
+    </style>
+    
+    <string name="balance_your_score">Your Score</string>
+    <string name="balance_total_levels">Levels</string>
+    <string name="balance_unlocked_levels">Unlocked</string>
+    <string name="balance_completed_levels">Completed</string>
+    <string name="balance_total_brands">Brands</string>
+    <string name="balance_completed_brands">Completed</string>
+    <string name="balance_points">Points</string>
+    <string name="balance_credits">Credits</string>
+    <string name="balance_separator">:</string>
+
+    <dimen name="balance_row_space">20dp</dimen>
+    <dimen name="balance_group_space">40dp</dimen>
+    <dimen name="balance_separator_space">20dp</dimen>
+    
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="main"></style>
+
+    <style name="main.section">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/main_section_margin</item>
+    </style>
+
+    <style name="main.icon">
+        <item name="android:layout_width">@dimen/main_icon_size</item>
+        <item name="android:layout_height">@dimen/main_icon_size</item>
+        <item name="android:src">@drawable/action_navigate_next</item>
+    </style>
+
+    <style name="main.text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/main_text_left</item>
+        <item name="android:paddingBottom">@dimen/main_text_padding</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="main.text.label">
+        <item name="android:layout_marginTop">@dimen/main_text_top</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">?textColorInverse</item>
+    </style>
+
+    <style name="main.text.label.factor">
+        <item name="android:textColor">@color/yellow_500</item>
+    </style>
+
+    <style name="main.hr">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/main_hr_size</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:background">?colorPrimaryDark</item>
+    </style>
+
+    <string name="main_catalog">Catalog</string>
+    <string name="main_play">Play</string>
+    <string name="main_quiz">Quiz</string>
+    <string name="main_logo">Logo</string>
+    <string name="main_brand">Brand</string>
+    <string name="main_country">Country</string>
+    <string name="main_year">Year</string>
+    <string name="main_score">Score</string>
+
+    <dimen name="main_section_margin">20dp</dimen>
+    <dimen name="main_icon_size">64dp</dimen>
+    <dimen name="main_text_left">40dp</dimen>
+    <dimen name="main_text_top">10dp</dimen>
+    <dimen name="main_text_padding">4dp</dimen>
+    <dimen name="main_hr_size">1dp</dimen>
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.kidscademy.cars"
+    android:id="@+id/slide_preferences"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown_400"
+    android:orientation="vertical" >
+
+    <FrameLayout style="@style/slide.image_layout" >
+
+        <js.view.ColorGridView
+            android:id="@+id/slide_preferences_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:horizontalSpacing="8dp"
+            android:numColumns="4"
+            android:verticalSpacing="8dp"
+            app:colors="@array/slide_preferences_colors"
+            app:names="@array/slide_preferences_color_names" />
+
+    </FrameLayout>
+
+    <LinearLayout style="@style/slide.text_layout" >
+
+        <TextView
+            style="@style/slide.title"
+            android:padding="0dp"
+            android:text="@string/slide_settings_title" />
+
+        <TextView
+            style="@style/slide.text"
+            android:text="@string/slide_settings_text1" />
+
+        <TextView
+            style="@style/slide.text"
+            android:text="@string/slide_settings_text2" />
+        </LinearLayout>
+
+</LinearLayout>
